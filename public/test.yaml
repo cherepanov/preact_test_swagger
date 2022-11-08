@@ -1,0 +1,12 @@
+openapi: 3.0.0
+paths:
+  /entities:
+    post:
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
